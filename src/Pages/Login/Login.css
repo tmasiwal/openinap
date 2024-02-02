@@ -73,61 +73,88 @@ color: #FFFFFF;
 .logo-image {
   z-index: 1;
 }
-.signInButton{
-    width: 356.77px;
-height: 43.91px;
-top: 670.03px;
-left: 846.11px;
-border-radius: 15px;
-background-color: #605BFF;
-border: none;
 
+
+#loginForm{
+    margin: 0 auto;
+    width: 100%;
 }
+   #loginForm form{
+        font-family: Lato, sans-serif;
+   }
+       #loginForm form p{
+            font-family: Lato, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-bottom: 11px;
+        }
+       #loginForm form input{
+            background: #F5F5F5;
+            border: none;
+            width: 100%;
+            height: 44px;
+            border-radius: 10px;
+            padding: 11px 16px;
+            margin-bottom: 22px;
+            font-family: Lato, sans-serif;
+        }
+       #loginForm form input:focus {
+            outline: none;
+        }
+       #loginForm form input[type='submit']{
+            cursor: pointer;
+            margin-top: 11px;
+            margin-bottom: 44px;
+            background: #605BFF;
+            color: white;
+            font-family: Montserrat, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+    
 
-.emaildiv{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-   
-}
-input{
-    width: 356.77px;
-height: 43.91px;
-top: 463.65px;
-left: 846.11px;
-background: #F8FAFF;
-border: none;
-padding: 15px;
-font-family: "Lato";
-font-size: 16px;
-font-weight: 400;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: left;
-border-radius: 10px;
-
-}
-
-label{
-    width: 105.38px;
-height: 20.86px;
-top: 431.82px;
-left: 846.11px;
-font-family: Lato;
-font-size: 16px;
-font-weight: 400;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: left;
-margin-top: 10px;
 
 
-}
+
+
+
+
+
 .additional-links{
 
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+    .buttons  button{
+        cursor: pointer;
+        border-radius: 3px;
+        width: 172.591px;
+        height: 31px;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border: 1px solid lightgray;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #858585;
+    }
+
 .logodiv{
 width: 299px;
 height: 48px;
