@@ -138,3 +138,58 @@ justify-content: space-between;
 
 
 }
+.logodiv2{
+  display: none;
+}
+.nav-login{
+  display: none;
+}
+@media screen and (max-width: 400px) {
+  .part1 {
+ display: none;
+  }
+  .nav-login{
+  display: block;
+  background-color: #605BFF;
+}
+  .mainContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .logodiv{
+    display: none;
+  }
+.logodiv2{
+display: flex;
+margin: auto;
+}
+.part2{
+  
+  margin: auto;
+
+  
+  width: 100%;
+  padding-left: 20px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+
+}
+label{
+  width: 100%;
+}
+input{
+  width: 100%;
+}
+.signInButton{
+  width: 50%;
+}
+form{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+}

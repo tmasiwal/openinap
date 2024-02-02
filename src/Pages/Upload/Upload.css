@@ -81,9 +81,13 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 400px) {
-  .up-sidebar {
-    display: none; /* Hide sideSection on smaller screens */
-  }
+
+.up-main{
+  display: flex;
+  flex-direction: column;
+}
+
+
 }
 
 

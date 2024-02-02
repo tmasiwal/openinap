@@ -5,6 +5,7 @@ import { GoogleLogin } from "@react-oauth/google";
 import blueVector from "../../assets/blueVector.svg";
 import "boxicons/css/boxicons.min.css";
 import { useNavigate } from "react-router-dom";
+import logo3 from "../../assets/logoFor300.png"
 const Login = () => {
   const responseGoogle = (response) => {
     console.log(response);
@@ -21,6 +22,7 @@ const handlesubmit=(e)=>{
           <img src={blueVector} className="blue-vector" alt="" />
           <img src={logoImage} className="logo-image" alt="" />
         </div>
+
         <div className="logoHeading">
           <p>BASE</p>
         </div>
@@ -43,7 +45,9 @@ const handlesubmit=(e)=>{
           ></i>
         </div>
       </div>
-
+      <div className="nav-login">
+        <img src={logo3} alt="" />
+      </div>
       <div className="part2">
         <p className="signText">Sign In</p>
         <p className="signText2">Sign in to your account</p>
@@ -86,6 +90,24 @@ const handlesubmit=(e)=>{
           Don’t have an account?
           <a href="#">Register here</a>
         </div>
+      </div>
+      <div className="logodiv2">
+        <i
+          className="bx bxl-github"
+          style={{ color: "#858585", fontSize: "44px" }}
+        ></i>
+        <i
+          class="bx bxl-twitter"
+          style={{ color: "#858585", fontSize: "44px" }}
+        ></i>
+        <i
+          class="bx bxl-linkedin-square"
+          style={{ color: "#858585", fontSize: "44px" }}
+        ></i>
+        <i
+          class="bx bxl-discord-alt"
+          style={{ color: "#858585", fontSize: "44px" }}
+        ></i>
       </div>
     </div>
   );

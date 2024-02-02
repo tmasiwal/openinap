@@ -20,4 +20,20 @@
     gap: 20px;
 }
 
+@media screen and (max-width: 400px) {
+.side-icon{
+    display: none;
+}
+.side-main{
+    background-color: #FFF;
+    width: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
 
+.side-logo{
+ width: 20%;
+}
+}

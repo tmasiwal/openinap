@@ -8,7 +8,7 @@ const Sidebar = () => {
       <div className="side-logo">
         <img src={blogo} alt="logo" />
       </div>
-      <div >
+      <div className='side-icon' >
         <div className="sideSection">
           <i
             class="bx bxs-dashboard"
