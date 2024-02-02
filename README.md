@@ -1,3 +1,7 @@
+
+## Deploy link
+[Netlify](https://tanupopeninapp.netlify.app/)
+
 ## Login Page
 ![Screenshot 2024-02-02 141554](https://github.com/tmasiwal/openinap/assets/123891999/450ff721-b484-46a9-a052-2d8475825a56)
 ##Upload Page
