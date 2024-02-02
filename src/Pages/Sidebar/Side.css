@@ -1,0 +1,23 @@
+.side-main{
+    display: flex;
+    flex-direction: column;
+    width: 218px;
+    gap: 51px;
+    align-items: center;
+
+}
+.side-logo{
+    width: 50%;
+}
+.side-logo img{
+    width: 100%;
+}
+.sideSection{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+
